@@ -1,0 +1,462 @@
+.main__header {
+  color: black;
+  width: 100%;
+}
+
+.main__header nav {
+  display: inline-block;
+  width: 80%;
+  padding-left: 40px;
+}
+
+.main__logo {
+  display: inline-block;
+  font-size: 25px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-left: 10px;
+  margin-top: 0px;
+  font-weight: bold;
+  margin-right: 200px;
+  text-decoration: none;
+  color: black;
+}
+
+.main__header ul {
+  list-style-type: none;
+  font-size: 0;
+}
+
+.main__header li {
+  display: inline-block;
+  text-decoration: none;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  width: 10%;
+  font-weight: bold;
+  position: relative;
+  font-size: 14px;
+}
+
+.main__header__li--modifier {
+  display: inline-block;
+  text-decoration: none;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  position: relative;
+  margin-right: 50px;
+  margin-top: 0px;
+  font-size: 14px;
+}
+
+.main__header ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.main__header ul ul {
+  display: none;
+  position: absolute;
+  background-color: #68a678;
+  width: 70px;
+  padding-left: 15px;
+  padding-bottom: 15px;
+}
+
+.main__header ul ul li {
+  display: block;
+}
+
+.main__header ul li:hover ul {
+  display: block;
+}
+
+.main__order {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main__title {
+  font-size: 50px;
+  font-weight: bold;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+  padding: 15px;
+  margin-top: 10px;
+  margin-left: 150px;
+  margin-right: 100px;
+  display: inline-block;
+  position: relative;
+}
+
+.main__image {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 5px 5px #68a678;
+  margin-top: 40px;
+}
+
+.separating__margin {
+  margin-top: 100px;
+}
+
+.background__second__div {
+  background-color: #e7ffed;
+  margin: 0px;
+}
+
+.our__products {
+  text-align: center;
+  font-size: 25px;
+  margin-left: 10px;
+  padding-top: 10px;
+  margin-top: 50px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  position: relative;
+}
+
+.our__products__text {
+  margin-left: 10px;
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.our__products__list {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+}
+
+.last__itemproduct__list {
+  margin-bottom: 50px;
+}
+
+.our__products__product1__title {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: right;
+  position: relative;
+  margin-right: 850px;
+}
+
+.margin__text1 {
+  margin-left: 300px;
+}
+
+.our__products__product1__text {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  position: relative;
+  margin-right: 220px;
+  margin-top: 10px;
+  padding-bottom: 10px;
+}
+
+.our__products__product1__button {
+  border-radius: 3px;
+  position: relative;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  padding: 5px 10px;
+  text-decoration: none;
+  color: black;
+  background-color: #68a678;
+}
+
+.our__products__product2__title {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: left;
+  position: relative;
+  margin-left: 30px;
+  margin-top: 100px;
+}
+
+.margin__text2 {
+  margin-right: 300px;
+}
+
+.our__products__product2__text {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  text-align: left;
+  position: relative;
+  margin-left: 30px;
+  margin-top: 10px;
+  padding-bottom: 10px;
+}
+
+.our__products__product2__button {
+  border-radius: 3px;
+  text-align: left;
+  position: relative;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  padding: 5px 10px;
+  margin-left: 30px;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  text-decoration: none;
+  color: black;
+  background-color: #68a678;
+}
+
+.our__products__images {
+  max-width: 500px;
+  max-height: 500px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.main__title__form {
+  text-align: center;
+  font-size: 25px;
+  padding-top: 10px;
+  margin-top: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  position: relative;
+}
+
+.main__text__form {
+  margin-left: 10px;
+  font-size: 20px;
+  text-align: center;
+  position: relative;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main__form {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form__input__style {
+  border-radius: 3px;
+  border: 2px solid #68a678;
+  margin-top: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.form__input__size {
+  width: 50%;
+}
+
+.form__button {
+  padding: 0.5em 1em;
+  border: none;
+  background: #68a678;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 3px;
+}
+
+.background__footer {
+  background-color: #e7ffed;
+}
+
+.footer__text {
+  text-align: left;
+  display: inline-block;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  margin-left: 20px;
+}
+
+.footer__ul {
+  list-style-type: none;
+}
+
+.footer__ul img {
+  max-width: 30px;
+  max-height: 30px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.footer__ul li {
+  float: left;
+}
+
+.div__footer__left {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 250px;
+}
+
+.div__footer__right {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 250px;
+}
+
+.text__footer__ul {
+  color: black;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.text__footer__ul--modifier {
+  margin-left: 2px;
+  color: black;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.terms__and__conditions {
+  color: black;
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer__attention__img {
+  border-radius: 50%;
+  max-width: 20px;
+  max-height: 20px;
+  margin: 2px;
+}
+
+/* FIN ESTILOS INDEX */
+
+/* COMIENZO ESTILOS TERMINOS Y CONDICIONES*/
+
+.terms__and__conditions__title {
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 50px;
+}
+
+.terms__and__conditions__text {
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 20px;
+}
+
+.back__menu {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  color: #68a678;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+  margin-bottom: 406px;
+}
+
+/* COMIENZO ESTILOS QUIENES SOMOS */
+
+.who__we__are__title {
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 50px;
+}
+
+.who__we__are__text {
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 20px;
+}
+
+.who__we__are__backmenu {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  color: #68a678;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+  margin-bottom: 495px;
+}
+
+.who__we__are__instagram {
+  text-decoration: none;
+  color: #68a678;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/* COMIENZO ESTILOS INICIAR SESION */
+
+.iniciar__sesion__titulo {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 50px;
+  text-align: center;
+}
+
+.main__form2 {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form__input__style2 {
+  border-radius: 3px;
+  border: 2px solid #68a678;
+  margin-top: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.form__input__size2 {
+  width: 10%;
+  height: 20px;
+}
+
+.iniciar__sesion__links {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  color: #68a678;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+/* INICIO ESTILOS MIS COMPRAS */
+
+.mis__compras__texto {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  text-align: left;
+  margin-left: 10px;
+}
+
+.mis__compras__backmenu {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  color: #68a678;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+  margin-bottom: 500px;
+}
