@@ -7,37 +7,75 @@
     <title>¿Quiénes Somos?</title>
     <link rel="icon" type="image/jpg" href="../imagenes/logo-sportify.jpg">
     <link rel="stylesheet" href="../css/style.css" />
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+    crossorigin="anonymous"
+  />
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+    crossorigin="anonymous"
+  ></script>
   </head>
   <body>
-    <header class="main__header">
-      <div>
-        <a href="../index.html" class="main__logo">Sportify</a>
-        <nav>
-          <ul>
-            <li class="main__header__li--modifier">
-              <a href="./quienes-somos.html" class="active">¿Quiénes somos?</a>
-            </li>
-            <li class="main__header__li--modifier">
-              Categorias
-              <ul>
-                <li><a href="#">Fútbol</a></li>
-                <li><a href="#">Tenis</a></li>
-                <li><a href="#">Basket</a></li>
-                <li><a href="#">Boxeo</a></li>
-                <li><a href="#">Hockey</a></li>
-                <li><a href="#">Natación</a></li>
-                <li><a href="#">Otros</a></li>
-              </ul>
-            </li>
-            <li class="main__header__li--modifier">
-              <a href="./inicio-sesion.html" >Iniciar Sesion</a>
-            </li>
-            <li class="main__header__li--modifier">
-              <a href="./mis-compras.html">Mis Compras</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
+    <header>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="main__logo" href="../index.html">Sportify</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item main__header__li--modifier">
+                <a class="nav__color" href="./quienes-somos.html"
+                  >¿Quiénes Somos?</a
+                >
+              </li>
+              <li class="nav-item main__header__li--modifier">
+                <a class="nav__color" href="./inicio-sesion.html"
+                  >Iniciar Sesión</a
+                >
+              </li>
+              <li class="nav-item main__header__li--modifier">
+                <a class="nav__color" href="./mis-compras.html"
+                  >Mis Compras</a
+                >
+              </li>
+              <li class="nav-item dropdown main__header__li--modifier">
+                <a
+                  class="nav__color dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Categorias
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Fútbol</a></li>
+                  <li><a class="dropdown-item" href="#">Tenis</a></li>
+                  <li><a class="dropdown-item" href="#">Basket</a></li>
+                  <li><a class="dropdown-item" href="#">Boxeo</a></li>
+                  <li><a class="dropdown-item" href="#">Hockey</a></li>
+                  <li><a class="dropdown-item" href="#">Natación</a></li>
+                  <li><a class="dropdown-item" href="#">Otros</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </header>
     <main>
       <div>
@@ -52,40 +90,64 @@
       </div>
     </main>
     <footer class="background__footer">
-      <div class="main__order">
-        <div class="div__footer__left">
-        <p class="footer__text">Seguinos en nuestras redes:</p>
-        <ul class="footer__ul">
-          <li>
-            <a href="#"><img src="../imagenes/instagram-logo.png" alt="" /></a>
-          </li>
-          <li>
-            <a href="#"
-              ><img src="../imagenes/twitter-bird-white-on-blue.jpg" alt="" />
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <img src="../imagenes/whatsapp2.jpg" alt="" />
-            </a>
-          </li>
-        </ul>
-      </div>
-        <div class="div__footer__right">
-        <a href="#" class="text__footer__ul">
-          <img src="../imagenes/google-maps.jpg" alt="" height="20px" width="20px"/>     Rivadavia 4225, Buenos Aires
-        </a>
-        <br>
-        <a href="#" class="text__footer__ul">
-          <img src="../imagenes/reloj.jpg" alt="" height="20px" width="20px"/>     Lun a Vie de 10:00 a 19:00, Sab de 12:00 a 19:00
-        </a>
-        <br>
-        <a href="#" class="text__footer__ul">
-          <img src="../imagenes/telefono.jpg" alt="" height="20px" width="20px"/>     +5491140961568
+      <!-- COMIENZO PIE DE PAGINA -->
+
+      <div class="container-fluid row text-center">
+        <div class="col-12 col-lg-6 text-center">
+          <p class="footer__text">Seguinos en nuestras redes</p>
+          <br />
+          <a href="#"
+            ><img
+              src="../imagenes/whatsapp4.png"
+              alt="whats app"
+              class="footer__img"
+          /></a>
+
+          <a href="#"
+            ><img
+              src="../imagenes/instagram-logo.png"
+              alt="Instagram"
+              class="footer__img"
+          /></a>
+          <a href="#"
+            ><img
+              src="../imagenes/twitter-bird-white-on-blue.jpg"
+              alt="twitter"
+              class="footer__img"
+            />
+          </a>
         </div>
+        <div class="col-12 col-lg-6">
+          <a href="#" class="text__footer__ul--modifier">
+            <img
+              src="../imagenes/google-maps.jpg"
+              alt="google maps"
+              class="footer__attention__img"
+            />Rivadavia 4225, Buenos Aires
+          </a>
+          <br />
+          <a href="#" class="text__footer__ul">
+            <img
+              src="../imagenes/reloj.jpg"
+              alt="horarios"
+              class="footer__attention__img"
+            />Lun a Vie de 10:00 a 19:00, Sab de 12:00 a 19:00
+          </a>
+          <br />
+          <a href="#" class="text__footer__ul">
+            <img
+              src="../imagenes/telefono.jpg"
+              alt="numero de telefono"
+              class="footer__attention__img"
+            />+5491140961568
+          </a>
+        </div>
+        <a
+          href="./terminos-y-condiciones.html"
+          class="text__footer terms__and__conditions col-12"
+          >Terminos y condiciones</a
+        >
       </div>
-      <br>
-      <a href="./terminos-y-condiciones.html" class="text__footer terms__and__conditions">Terminos y condiciones</a>
     </footer>
   </body>
 </html>

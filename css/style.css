@@ -27,6 +27,13 @@
   font-size: 14px;
 }
 
+.nav__color {
+  color: black;
+  text-decoration: none;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    padding-top: 10px;
+}
 
 .main__header__li--modifier {
   text-decoration: none;
@@ -40,10 +47,6 @@
 
 .main__header__li--modifier a:hover:not(.active) {
   color: #68a678;
-}
-
-.main__header__li--modifier a.active {
-  color: #12ff00;
 }
 
 .main__header ul li a {
@@ -77,6 +80,8 @@
   animation: float 10s ease-in infinite;
   margin-left: 100px;
   margin-bottom: 100px;
+  width: 100%;
+  height: 100%;
 }
 
 .background__second__div {
@@ -112,7 +117,7 @@
   margin-bottom: 50px;
 }
 
-.our__products__product1__title {
+.our__products__title {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-weight: bold;
@@ -121,7 +126,7 @@
   margin-top: 150px;
 }
 
-.our__products__product1__text {
+.our__products__text {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 15px;
   position: relative;
@@ -129,7 +134,7 @@
   padding-bottom: 10px;
 }
 
-.our__products__product1__button {
+.our__products__button {
   border-radius: 3px;
   position: relative;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -140,42 +145,7 @@
   background-color: #68a678;
 }
 
-.our__products__product1__button:hover {
-  color: white;
-  background-color: #054600;
-}
-
-.our__products__product2__title {
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  font-weight: bold;
-  font-size: 20px;
-  margin-left: 100px;
-  margin-top: 200px;
-}
-
-.our__products__product2__text {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 15px;
-  margin-top: 10px;
-  padding-bottom: 10px;
-  margin-left: 100px;
-}
-
-.our__products__product2__button {
-  border-radius: 3px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-weight: bold;
-  padding: 5px 10px;
-  margin-left: 100px;
-  margin-top: 10px;
-  margin-bottom: 50px;
-  text-decoration: none;
-  color: black;
-  background-color: #68a678;
-}
-
-.our__products__product2__button:hover {
+.our__products__button:hover {
   color: white;
   background-color: #054600;
 }
@@ -251,7 +221,6 @@
 
 .other__products__allCategories:hover {
   color: #68a678;
-  text-decoration: none;
 }
 
 .main__title__form {
@@ -319,16 +288,13 @@
   list-style-type: none;
 }
 
-.footer__ul img {
+.footer__img {
   max-width: 30px;
   max-height: 30px;
   margin-right: 10px;
   border-radius: 50%;
 }
 
-.footer__ul__img {
-  margin-left: 370px;
-}
 
 .footer__ul li {
   float: left;
@@ -352,6 +318,11 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.text__footer__ul--modifier:hover {
+  color: black;
+}
+
+
 .terms__and__conditions {
   color: black;
   font-family: Arial, Helvetica, sans-serif;
@@ -359,7 +330,6 @@
 
 .terms__and__conditions:hover {
   color: black;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 .footer__attention__img {
@@ -395,7 +365,11 @@
   align-items: center;
   justify-content: center;
   margin-top: 15px;
-  margin-bottom: 406px;
+  margin-bottom: 450px;
+}
+
+.back__menu:hover {
+  color: #68a678;
 }
 
 /* COMIENZO ESTILOS QUIENES SOMOS */
@@ -422,7 +396,11 @@
   align-items: center;
   justify-content: center;
   margin-top: 15px;
-  margin-bottom: 495px;
+  margin-bottom: 535px;
+}
+
+.who__we__are__backmenu:hover {
+  color: #68a678;
 }
 
 .who__we__are__instagram {
@@ -445,7 +423,6 @@
 
 .main__form2 {
   font-family: Arial, Helvetica, sans-serif;
-  margin-top: 40px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -460,8 +437,8 @@
 }
 
 .form__input__size2 {
-  width: 10%;
-  height: 20px;
+  width: 12%;
+  height: 25px;
 }
 
 .iniciar__sesion__links {
@@ -472,6 +449,10 @@
   align-items: center;
   justify-content: center;
   margin-top: 10px;
+}
+
+.iniciar__sesion__links:hover {
+  color: #68a678;
 }
 
 /* INICIO ESTILOS MIS COMPRAS */
@@ -492,7 +473,11 @@
   align-items: center;
   justify-content: center;
   margin-top: 15px;
-  margin-bottom: 520px;
+  margin-bottom: 570px;
+}
+
+.mis__compras__backmenu:hover {
+  color: #68a678;
 }
 
 /* ANIMACIONES */
@@ -588,11 +573,10 @@
   
   .main__image {
     border-radius: 25px;
-    box-shadow: 5px 5px #68a678;
     padding-top: 20px;
   }
   
-  .our__products__product1__title {
+  .our__products__title {
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
       "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
     font-weight: bold;
@@ -601,14 +585,14 @@
     margin-top: 25px;
   }
   
-  .our__products__product1__text {
+  .our__products__text {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     font-size: 15px;
     margin-top: 10px;
     padding-bottom: 10px;
   }
   
-  .our__products__product1__button {
+  .our__products__button {
     border-radius: 3px;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bold;
@@ -618,44 +602,11 @@
     background-color: #68a678;
   }
   
-  .our__products__product1__button:hover {
+  .our__products__button:hover {
     color: white;
     background-color: #054600;
   }
   
-  .our__products__product2__title {
-    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-    font-weight: bold;
-    font-size: 20px;
-    margin-top: 20px;
-    margin-right: 20px;
-  }
-  
-  .our__products__product2__text {
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 15px;
-    margin-top: 10px;
-    padding-bottom: 10px;
-  }
-  
-  .our__products__product2__button {
-    border-radius: 3px;
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: bold;
-    padding: 5px;
-    margin-top: 10px;
-    margin-bottom: 50px;
-    text-decoration: none;
-    color: black;
-    background-color: #68a678;
-  }
-  
-  .our__products__product2__button:hover {
-    color: white;
-    background-color: #054600;
-  }
-
   .our__products__images {
     max-width: 200px;
     max-height: 200px;
@@ -701,5 +652,43 @@
     max-width: 20px;
     max-height: 20px;
     margin: 2px;
+  }
+
+  .form__input__size2 {
+    width: 50%;
+    height: 30px;
+  }
+
+  .back__menu {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    color: #68a678;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 200px;
+  }
+
+  .who__we__are__backmenu {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    color: #68a678;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 200px;
+  }
+
+  .mis__compras__backmenu {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    color: #68a678;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 200px;
   }
 }
