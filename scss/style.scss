@@ -98,8 +98,9 @@
 
   .main__image {
     border-radius: 25px;
-    padding-top: 20px;
-  }
+    max-width: 420px;
+    max-height: 300px;
+   }
 
   .our__products__title {
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
