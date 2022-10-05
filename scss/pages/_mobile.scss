@@ -1,0 +1,181 @@
+@media (max-width: 767px) {
+    .main__header {
+      color: black;
+    }
+  
+    .main__logo {
+      font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      font-weight: bold;
+      font-size: 25px;
+      margin-top: 5px;
+      margin-right: 20px;
+      text-decoration: none;
+      color: black;
+    }
+  
+    .main__logo:hover {
+      text-decoration: none;
+      color: black;
+    }
+  
+    .main__header ul {
+      list-style-type: none;
+      font-size: 0;
+    }
+  
+    .main__header li {
+      text-decoration: none;
+      font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      width: 10%;
+      font-weight: bold;
+      position: relative;
+      font-size: 14px;
+    }
+  
+    .main__header__li--modifier {
+      display: inline-block;
+      text-decoration: none;
+      font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      font-weight: bold;
+      margin-right: 100px;
+      margin-top: 10px;
+      font-size: 14px;
+    }
+  
+    .main__header__li--modifier a:hover:not(.active) {
+      color: #68a678;
+    }
+  
+    .main__header__li--modifier a.active {
+      color: #12ff00;
+    }
+  
+    .margin__main {
+      margin-top: 100px;
+    }
+  
+    .main__image {
+      border-radius: 25px;
+      max-width: 200px;
+      max-height: 200px;
+     }
+  
+    .our__products__title {
+      font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      font-weight: bold;
+      text-align: center;
+      font-size: 20px;
+      margin-top: 25px;
+    }
+  
+    .our__products__text {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      font-size: 15px;
+      margin-top: 10px;
+      padding-bottom: 10px;
+    }
+  
+    .our__products__button {
+      border-radius: 3px;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      font-weight: bold;
+      padding: 5px 10px;
+      text-decoration: none;
+      color: black;
+      background-color: #68a678;
+    }
+  
+    .our__products__button:hover {
+      color: white;
+      background-color: #054600;
+    }
+  
+    .our__products__images {
+      max-width: 200px;
+      max-height: 200px;
+      border-radius: 50%;
+      margin-bottom: 10px;
+      margin-top: 20px;
+    }
+  
+    .other__products {
+      text-align: center;
+      font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      font-size: 25px;
+      margin-top: 150px;
+      margin-bottom: 20px;
+    }
+  
+    .background__second__div {
+      background-color: #e7ffed;
+      margin: 0px;
+    }
+  
+    .footer__ul__img {
+      margin-left: 70px;
+    }
+  
+    .text__footer__ul--modifier {
+      margin-left: 2px;
+      color: black;
+      text-decoration: none;
+      font-family: Arial, Helvetica, sans-serif;
+      padding-top: 10px;
+    }
+  
+    .terms__and__conditions {
+      color: black;
+      font-family: Arial, Helvetica, sans-serif;
+      padding-top: 10px;
+    }
+  
+    .footer__attention__img {
+      border-radius: 50%;
+      max-width: 20px;
+      max-height: 20px;
+      margin: 2px;
+    }
+  
+    .form__input__size2 {
+      width: 50%;
+      height: 30px;
+    }
+  
+    .back__menu {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      font-size: 15px;
+      color: #68a678;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 15px;
+      margin-bottom: 200px;
+    }
+  
+    .who__we__are__backmenu {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      font-size: 15px;
+      color: #68a678;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 15px;
+      margin-bottom: 200px;
+    }
+  
+    .mis__compras__backmenu {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      font-size: 15px;
+      color: #68a678;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 15px;
+      margin-bottom: 200px;
+    }
+  }
