@@ -8679,8 +8679,8 @@ textarea.form-control-lg {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     padding: 5px; }
   .meetUs__images {
-    width: 250px;
-    height: 270px;
+    width: 280px;
+    height: 300px;
     border-radius: 50%;
     padding: 5px;
     border: 3px solid #68a678;
@@ -8713,6 +8713,7 @@ textarea.form-control-lg {
       color: black; }
     .who__we__are__images {
       height: 200px;
+      width: 140px;
       border-radius: 35px;
       padding: 0 !important;
       box-shadow: 10px 10px 5px 0px #68a678;
@@ -8769,8 +8770,8 @@ textarea.form-control-lg {
       font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
       padding: 5px; }
     .meetUs__images {
-      width: 100px;
-      height: 110px;
+      width: 160px;
+      height: 180px;
       border-radius: 50%;
       padding: 3px;
       border: 3px solid #68a678;
@@ -8911,6 +8912,11 @@ textarea.form-control-lg {
     font-size: 25px;
     margin-top: 150px;
     margin-bottom: 20px; }
+    .other__products__imgs {
+      width: 300px;
+      height: 230px;
+      border-radius: 10px;
+      text-align: center; }
   .background__second__div {
     background-color: #e7ffed;
     margin: 0px; }
