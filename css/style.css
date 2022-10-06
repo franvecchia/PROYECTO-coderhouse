@@ -8390,8 +8390,6 @@ textarea.form-control-lg {
   font-weight: bold;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   padding: 15px;
-  margin-top: 10px;
-  text-align: center;
   animation: fluido 3s ease-in-out infinite;
   background: linear-gradient(45deg, #12ff00, #68a678, #054600);
   background-size: 300%;
@@ -8401,10 +8399,10 @@ textarea.form-control-lg {
 
 .main__image {
   width: 1270px;
-  height: 730px;
+  height: 700px;
   padding: 3px;
   margin: 20px;
-  border: 2px solid #68a678;
+  border: 3px solid #68a678;
   border-radius: 25px; }
 
 .our__values__main__title {
@@ -8427,22 +8425,18 @@ textarea.form-control-lg {
 .our__values__texts {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-size: 15px;
-  margin-bottom: 20px; }
+  margin-bottom: 50px; }
 
 .background__second__div {
   background-color: #e7ffed;
   margin: 0px; }
 
 .our__products {
-  text-align: center;
   font-size: 25px;
-  margin-left: 10px;
   padding-top: 10px;
-  margin-top: 50px;
   padding-bottom: 25px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  font-weight: bold;
-  position: relative; }
+  font-weight: bold; }
   .our__products__title {
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
     font-weight: bold;
@@ -8563,7 +8557,8 @@ textarea.form-control-lg {
 .iniciar__sesion__titulo {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-size: 50px;
-  text-align: center; }
+  text-align: center;
+  padding: 15px; }
 
 .main__form2 {
   font-family: Arial, Helvetica, sans-serif;
@@ -8614,9 +8609,9 @@ textarea.form-control-lg {
   color: #68a678; }
 
 .who__we__are__title {
-  text-align: center;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  font-size: 50px; }
+  font-size: 50px;
+  padding: 15px; }
 
 .who__we__are__text {
   text-align: center;
@@ -8646,7 +8641,8 @@ textarea.form-control-lg {
 .terms__and__conditions__title {
   text-align: center;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  font-size: 50px; }
+  font-size: 50px;
+  padding: 15px; }
 
 .terms__and__conditions__text {
   text-align: center;
@@ -8691,9 +8687,8 @@ textarea.form-control-lg {
   .main__logo {
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 15px;
     margin-top: 5px;
-    margin-right: 20px;
     text-decoration: none;
     color: black; }
   .main__logo:hover {
@@ -8725,8 +8720,8 @@ textarea.form-control-lg {
     margin-top: 100px; }
   .main__image {
     border-radius: 25px;
-    max-width: 200px;
-    max-height: 200px; }
+    max-width: 320px;
+    max-height: 380px; }
   .our__products__title {
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
     font-weight: bold;
@@ -8812,6 +8807,24 @@ textarea.form-control-lg {
     margin-top: 15px;
     margin-bottom: 200px; } }
 
+@media (min-width: 1200px) and (max-width: 1400px) {
+  .main__image {
+    border-radius: 25px;
+    max-width: 1080px;
+    max-height: 650px; } }
+
+@media (min-width: 1000px) and (max-width: 1200px) {
+  .main__image {
+    border-radius: 25px;
+    max-width: 910px;
+    max-height: 570px; } }
+
+@media (min-width: 768px) and (max-width: 1000px) {
+  .main__image {
+    border-radius: 25px;
+    max-width: 670px;
+    max-height: 580px; } }
+
 .main__header {
   color: black; }
 
@@ -8819,6 +8832,7 @@ textarea.form-control-lg {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-weight: bold;
   font-size: 25px;
+  margin-left: 10px;
   text-decoration: none;
   color: black;
   padding-right: 50px; }

@@ -1,40 +1,41 @@
 .iniciar__sesion__titulo {
-    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-    font-size: 50px;
-    text-align: center;
-  }
-  
-  .main__form2 {
-    font-family: Arial, Helvetica, sans-serif;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .form__input__style2 {
-    border-radius: 3px;
-    border: 2px solid #68a678;
-    margin-top: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  
-  .form__input__size2 {
-    width: 12%;
-    height: 25px;
-  }
-  
-  .iniciar__sesion__links {
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 15px;
-    color: #68a678;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 10px;
-  }
-  
-  .iniciar__sesion__links:hover {
-    color: #68a678;
-  }
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 50px;
+  text-align: center;
+  padding: 15px;
+}
+
+.main__form2 {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form__input__style2 {
+  border-radius: 3px;
+  border: 2px solid #68a678;
+  margin-top: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.form__input__size2 {
+  width: 12%;
+  height: 25px;
+}
+
+.iniciar__sesion__links {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  color: #68a678;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.iniciar__sesion__links:hover {
+  color: #68a678;
+}
