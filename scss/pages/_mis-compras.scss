@@ -1,22 +1,24 @@
 .mis__compras__texto {
-    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-    font-size: 20px;
-    text-align: left;
-    margin-left: 10px;
-  }
-  
-  .mis__compras__backmenu {
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 15px;
-    color: #68a678;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 15px;
-    margin-bottom: 750px;
-  }
-  
-  .mis__compras__backmenu:hover {
-    color: #68a678;
-  }
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  text-align: left;
+  margin-left: 10px;
+}
+
+.mis__compras__backmenu {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  color: #68a678;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+  margin-bottom: 750px;
+  text-decoration: none;
+}
+
+.mis__compras__backmenu:hover {
+  color: #68a678;
+  text-decoration: underline;
+}
