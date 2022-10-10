@@ -1,56 +1,55 @@
 .main__header {
-    color: black;
-  }
-  
-  .main__logo {
-    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-    font-weight: bold;
-    font-size: 25px;
-    margin-left: 10px;
-    text-decoration: none;
-    color: black;
-    padding-right: 50px;
-  }
-  
-  .main__logo:hover {
-    text-decoration: none;
-    color: black;
-  }
-  
-  .main__header li {
-    text-decoration: none;
-    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-    width: 10%;
-    font-weight: bold;
-    position: relative;
-    font-size: 14px;
-  }
-  
-  .nav__color {
-    color: black;
-    text-decoration: none;
-    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-    padding-top: 10px;
-  }
-  
-  .main__header__li--modifier {
-    text-decoration: none;
-    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-    font-weight: bold;
-    margin-right: 50px;
-    font-size: 14px;
-    margin-left: 25px;
-  }
-  
-  .main__header__li--modifier a:hover:not(.active) {
-    color: #68a678;
-  }
-  
-  .main__header ul li a {
-    text-decoration: none;
-    color: black;
-  }
+  color: black;
+}
+
+.main__logo {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+  text-decoration: none;
+  margin-left: 5px;
+  color: black;
+}
+
+.nav {
+  background-color: white;
+  border-bottom: 1px solid grey;
+}
+
+.nav__image {
+  height: 50px;
+  width: 50px;
+  margin-right: 2px;
+}
+
+.main__logo:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.nav__color {
+  color: black;
+  text-decoration: none;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.main__header__li--modifier {
+  text-decoration: none;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  margin-right: 60px;
+  font-size: 14px;
+  margin-left: 15px;
+}
+
+.main__header__li--modifier a:hover:not(.active) {
+  color: #68a678;
+}
+
+.main__header ul li a {
+  text-decoration: none;
+  color: black;
+}

@@ -10,7 +10,7 @@
     color: black;
   }
   &__images {
-    height: 600px;
+    height: 550px;
     border-radius: 35px;
     padding: 0 !important;
     box-shadow: 10px 10px 5px 0px #68a678;
@@ -77,21 +77,21 @@
   font-size: 20px;
   &__titles {
     font-weight: bold;
-    font-size: 14px;
+    font-size: 17px;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     padding: 5px;
   }
   &__images {
-    width: 280px;
-    height: 300px;
+    width: 350px;
+    height: 330px;
     border-radius: 50%;
     padding: 5px;
     border: 3px solid #68a678;
     margin-top: 10px;
   }
   &__media {
-    width: 25px;
-    height: 25px;
+    width: 30px;
+    height: 30px;
     padding: 3px;
   }
   &__goodbye {
