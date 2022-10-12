@@ -1,24 +1,158 @@
-.mis__compras__texto {
+.mis__compras {
+  font-weight: bold;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  font-size: 20px;
-  text-align: left;
-  margin-left: 10px;
+  font-size: 50px;
+  margin: 5px;
+  &__texto {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-size: 16px;
+  }
+  &__noRecibido {
+    color: red;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    padding-top: 60px;
+    font-weight: bold;
+  }
+  &__recibido {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: #00a650;
+    font-weight: bold;
+    padding-top: 60px;
+    font-size: 20px;
+  }
+  &__productos {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+  }
+  &__imagenes {
+    width: 250px;
+    height: 300px;
+  }
+  &__flecha {
+    height: 20px;
+    width: 20px;
+    padding-right: 3px;
+  }
+  &__verCompra {
+    border-radius: 3px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    padding: 5px 0px;
+    text-decoration: none;
+    color: black;
+    background-color: #ededed;
+  }
+  &__verCompra:hover {
+    color: #68a678;
+  }
+  &__volverComprar {
+    border-radius: 3px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    padding: 5px 0px;
+    text-decoration: none;
+    color: black;
+    background-color: #68a678;
+  }
+  &__volverComprar:hover {
+    color: white;
+    background-color: #054600;
+  }
+  &__box {
+    background-color: #e7ffed;
+    border-radius: 10px;
+    margin: 5px;
+  }
+  &__orden {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  &__cuandoLlega {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  &__cuantas {
+    font-size: 16px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: grey;
+  }
+  &__backmenu {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    color: #68a678;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 100px;
+    text-decoration: none;
+  }
+  &__backmenu:hover {
+    color: #68a678;
+    text-decoration: underline;
+  }
 }
 
-.mis__compras__backmenu {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 15px;
-  color: #68a678;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 15px;
-  margin-bottom: 750px;
-  text-decoration: none;
-}
-
-.mis__compras__backmenu:hover {
-  color: #68a678;
-  text-decoration: underline;
+@media (max-width: 767px) {
+  .mis__compras {
+    font-weight: bold;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    margin: 5px;
+    &__imagenes {
+      width: 100px;
+      height: 150px;
+    }
+    &__texto {
+      font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      font-size: 14px;
+    }
+    &__noRecibido {
+      color: red;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      font-size: 16px;
+      padding-top: 20px;
+      font-weight: bold;
+    }
+    &__recibido {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      color: #00a650;
+      font-weight: bold;
+      padding-top: 20px;
+      font-size: 16px;
+    }
+    &__productos {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      font-size: 16px;
+    }
+    &__box {
+      background-color: #e7ffed;
+      border-radius: 10px;
+      margin: 5px;
+      padding-bottom: 20px;
+    }
+    &__cuandoLlega {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      font-size: 16px;
+      font-weight: bold;
+    }
+    &__backmenu {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      font-size: 15px;
+      color: #68a678;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 15px;
+      text-decoration: none;
+    }
+  }
 }

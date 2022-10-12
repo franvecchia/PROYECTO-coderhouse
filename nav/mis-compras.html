@@ -23,7 +23,14 @@
     <header>
       <nav class="navbar nav navbar-expand-lg">
         <div class="container-fluid">
-          <a class="main__logo" href="../index.html"> <img src="../imagenes/logo-sportify.jpg" alt="logo de la pagina" class="nav__image"> Sportify</a>
+          <a class="main__logo" href="../index.html">
+            <img
+              src="../imagenes/logo-sportify.jpg"
+              alt="logo de la pagina"
+              class="nav__image"
+            />
+            Sportify</a
+          >
           <button
             class="navbar-toggler"
             type="button"
@@ -79,20 +86,273 @@
       </nav>
     </header>
     <main>
-      <div>
-        <h1 class="iniciar__sesion__titulo">Mis Compras</h1>
-        <p class="mis__compras__texto">
-          Aún no realizaste ninguna compra. Cuando lo hagas, se almacenarán
-          aquí.
+      <!-- COMIENZO MIS COMPRAS -->
+      <div class="container-fluid row">
+        <h1 class="mis__compras text-center col-12">Mis Compras</h1>
+        <p class="mis__compras__texto ms-0 ms-lg-5 col-12 col-lg-3">
+          Las compras que hagas se irán almacenando aquí.
         </p>
-        <a href="../index.html" class="mis__compras__backmenu"
-          >Volver al menú</a
-        >
+        <p class="mis__compras__cuantas ms-0 ms-lg-0 col-12 col-lg-1">
+          Compras totales: 6
+        </p>
       </div>
+      <!-- TARJETA PENDIENTE -->
+      <div class="mis__compras__box container row ms-0 ms-lg-5 mt-3">
+        <img
+          src="../imagenes/mis-compras/mancuerna.png"
+          alt="compra 1"
+          class="mis__compras__imagenes col-lg-4"
+        />
+        <div class="container row col-lg-4 col-12 text-start">
+          <p class="mis__compras__noRecibido col-12">
+            <img
+              src="../imagenes/mis-compras/flecha-correcta.png"
+              alt="flecha"
+              class="mis__compras__flecha"
+            />
+            Entrega Pendiente
+          </p>
+          <p class="mis__compras__productos col-12">
+            <img
+              src="../imagenes/mis-compras/flecha-correcta.png"
+              alt="flecha"
+              class="mis__compras__flecha"
+            />
+            Mancuerna hexagonal Odea 15kg.
+          </p>
+          <p class="mis__compras__cuandoLlega">
+            <img
+              src="../imagenes/mis-compras/flecha-correcta.png"
+              alt="flecha"
+              class="mis__compras__flecha"
+            />
+            Llegará en los próximos 5 días hábiles.
+          </p>
+        </div>
+        <div class="mis__compras__orden container col-lg-2 col-6 text-center">
+          <br />
+          <a href="#" class="mis__compras__verCompra text-center">Ver Compra</a>
+          <br />
+          <a href="#" class="mis__compras__volverComprar text-center"
+            >Volver a Comprar</a
+          >
+        </div>
+      </div>
+
+      <!-- ENTREGA RECIBIDA 1 -->
+      <div class="mis__compras__box container row ms-0 ms-lg-5 mt-5">
+        <img
+          src="../imagenes/mis-compras/bolso-nike.jpg"
+          alt="compra 2"
+          class="mis__compras__imagenes col-12 col-lg-4"
+        />
+        <div class="container row col-12 col-lg-4 text-start">
+          <p class="mis__compras__recibido col-12">
+            <img
+              src="../imagenes/mis-compras/flecha-correcta.png"
+              alt="flecha"
+              class="mis__compras__flecha"
+            />
+            Entregado
+          </p>
+          <p class="mis__compras__productos col-12">
+            <img
+              src="../imagenes/mis-compras/flecha-correcta.png"
+              alt="flecha"
+              class="mis__compras__flecha"
+            />
+            Bolso negro Nike brasilia 6 small duffel.
+          </p>
+          <p class="mis__compras__cuandoLlega">
+            <img
+              src="../imagenes/mis-compras/flecha-correcta.png"
+              alt="flecha"
+              class="mis__compras__flecha"
+            />
+            Llegó el 17 de agosto.
+          </p>
+        </div>
+        <div class="mis__compras__orden container col-6 col-lg-2 text-center">
+          <br />
+          <a href="#" class="mis__compras__verCompra text-center">Ver Compra</a>
+          <br />
+          <a href="#" class="mis__compras__volverComprar text-center"
+            >Volver a Comprar</a
+          >
+        </div>
+      </div>
+      <!-- ENTREGA RECIBIDA 2 -->
+      <div class="mis__compras__box container row ms-0 ms-lg-5 mt-5">
+        <img
+          src="../imagenes/mis-compras/palo-hockey.jpg"
+          alt="compra 3"
+          class="mis__compras__imagenes col-12 col-lg-4"
+        />
+        <div class="container row col-12 col-lg-4 text-start">
+          <p class="mis__compras__recibido col-12">
+            <img
+              src="../imagenes/mis-compras/flecha-correcta.png"
+              alt="flecha"
+              class="mis__compras__flecha"
+            />
+            Entregado
+          </p>
+          <p class="mis__compras__productos col-12">
+            <img
+              src="../imagenes/mis-compras/flecha-correcta.png"
+              alt="flecha"
+              class="mis__compras__flecha"
+            />
+            Palo sintético Adidas ruzo 1 ex.
+          </p>
+          <p class="mis__compras__cuandoLlega">
+            <img
+              src="../imagenes/mis-compras/flecha-correcta.png"
+              alt="flecha"
+              class="mis__compras__flecha"
+            />
+            Llegó el 28 de junio.
+          </p>
+        </div>
+        <div class="mis__compras__orden container col-6 col-lg-2 text-center">
+          <br />
+          <a href="#" class="mis__compras__verCompra text-center">Ver Compra</a>
+          <br />
+          <a href="#" class="mis__compras__volverComprar text-center"
+            >Volver a Comprar</a
+          >
+        </div>
+      </div>
+      <!-- ENTREGA RECIBIDA 3 -->
+      <div class="mis__compras__box container row ms-0 ms-lg-5 mt-5">
+        <img
+          src="../imagenes/mis-compras/protector-bucal.jpg"
+          alt="compra 4"
+          class="mis__compras__imagenes col-12 col-lg-4"
+        />
+        <div class="container row col-12 col-lg-4 text-start">
+          <p class="mis__compras__recibido col-12">
+            <img
+              src="../imagenes/mis-compras/flecha-correcta.png"
+              alt="flecha"
+              class="mis__compras__flecha"
+            />
+            Entregado
+          </p>
+          <p class="mis__compras__productos col-12">
+            <img
+              src="../imagenes/mis-compras/flecha-correcta.png"
+              alt="flecha"
+              class="mis__compras__flecha"
+            />
+            Protector bucal Makura kyro pro junior transparente.
+          </p>
+          <p class="mis__compras__cuandoLlega">
+            <img
+              src="../imagenes/mis-compras/flecha-correcta.png"
+              alt="flecha"
+              class="mis__compras__flecha"
+            />
+            Llegó el 2 de marzo.
+          </p>
+        </div>
+        <div class="mis__compras__orden container col-6 col-lg-2 text-center">
+          <br />
+          <a href="#" class="mis__compras__verCompra text-center">Ver Compra</a>
+          <br />
+          <a href="#" class="mis__compras__volverComprar text-center"
+            >Volver a Comprar</a
+          >
+        </div>
+      </div>
+      <!-- ENTREGA RECIBIDA 4 -->
+      <div class="mis__compras__box container row ms-0 ms-lg-5 mt-5">
+        <img
+          src="../imagenes/mis-compras/medias-futbol.jpg"
+          alt="compra 5"
+          class="mis__compras__imagenes col-12 col-lg-4"
+        />
+        <div class="container row col-12 col-lg-4 text-start">
+          <p class="mis__compras__recibido col-12">
+            <img
+              src="../imagenes/mis-compras/flecha-correcta.png"
+              alt="flecha"
+              class="mis__compras__flecha"
+            />
+            Entregado
+          </p>
+          <p class="mis__compras__productos col-12">
+            <img
+              src="../imagenes/mis-compras/flecha-correcta.png"
+              alt="flecha"
+              class="mis__compras__flecha"
+            />
+            Medias Adidas negras talle M.
+          </p>
+          <p class="mis__compras__cuandoLlega">
+            <img
+              src="../imagenes/mis-compras/flecha-correcta.png"
+              alt="flecha"
+              class="mis__compras__flecha"
+            />
+            Llegó el 24 de noviembre de 2021.
+          </p>
+        </div>
+        <div class="mis__compras__orden container col-6 col-lg-2 text-center">
+          <br />
+          <a href="#" class="mis__compras__verCompra text-center">Ver Compra</a>
+          <br />
+          <a href="#" class="mis__compras__volverComprar text-center"
+            >Volver a Comprar</a
+          >
+        </div>
+      </div>
+      <!-- ENTREGA RECIBIDA 5 -->
+      <div class="mis__compras__box container row ms-0 ms-lg-5 mt-5">
+        <img
+          src="../imagenes/mis-compras/remera-termica.jpg"
+          alt="compra 6"
+          class="mis__compras__imagenes col-12 col-lg-4"
+        />
+        <div class="container row col-12 col-lg-4 text-start">
+          <p class="mis__compras__recibido col-12">
+            <img
+              src="../imagenes/mis-compras/flecha-correcta.png"
+              alt="flecha"
+              class="mis__compras__flecha"
+            />
+            Entregado
+          </p>
+          <p class="mis__compras__productos col-12">
+            <img
+              src="../imagenes/mis-compras/flecha-correcta.png"
+              alt="flecha"
+              class="mis__compras__flecha"
+            />
+            Remera térmica manga larga gdo primera piel Hydrowick.
+          </p>
+          <p class="mis__compras__cuandoLlega">
+            <img
+              src="../imagenes/mis-compras/flecha-correcta.png"
+              alt="flecha"
+              class="mis__compras__flecha"
+            />
+            Llegó el 31 de mayo de 2021.
+          </p>
+        </div>
+        <div class="mis__compras__orden container col-6 col-lg-2 text-center">
+          <br />
+          <a href="#" class="mis__compras__verCompra text-center">Ver Compra</a>
+          <br />
+          <a href="#" class="mis__compras__volverComprar text-center"
+            >Volver a Comprar</a
+          >
+        </div>
+      </div>
+      <a href="../index.html" class="mis__compras__backmenu">Volver al menú</a>
     </main>
     <footer class="background__footer m-0">
       <!-- COMIENZO PIE DE PAGINA -->
-
       <div class="footer__pad container-fluid row text-center">
         <div class="col-12 col-lg-6 text-center">
           <p class="footer__text">Seguinos en nuestras redes</p>
@@ -103,7 +363,6 @@
               alt="whats app"
               class="footer__img"
           /></a>
-
           <a href="#"
             ><img
               src="../imagenes/redes-sociales/instagram-logo.png"

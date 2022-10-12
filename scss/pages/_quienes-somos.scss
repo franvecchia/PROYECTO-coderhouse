@@ -103,6 +103,7 @@
     text-decoration: none;
     color: #68a678;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
   }
   &__contact:hover {
     color: #68a678;
@@ -118,7 +119,7 @@
     padding: 10px;
     &__texts {
       font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-      font-size: 18px;
+      font-size: 16px;
       padding-top: 10px;
       color: black;
     }
@@ -142,20 +143,12 @@
       font-weight: bold;
       font-size: 20px;
     }
-    &__instagram:hover {
-      color: #68a678;
-      text-decoration: underline;
-    }
     &__backmenu {
       font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
       font-size: 15px;
       color: #68a678;
       padding: 10px;
       text-decoration: none;
-    }
-    &__backmenu:hover {
-      color: #68a678;
-      text-decoration: underline;
     }
   }
 
@@ -197,7 +190,7 @@
       padding: 5px;
     }
     &__images {
-      width: 160px;
+      width: 205px;
       height: 180px;
       border-radius: 50%;
       padding: 3px;
@@ -211,17 +204,14 @@
     }
     &__goodbye {
       padding: 10px;
-      font-size: 20px;
+      font-size: 16px;
       font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     }
     &__contact {
       text-decoration: none;
       color: #68a678;
       font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    }
-    &__contact:hover {
-      color: #68a678;
-      text-decoration: underline;
+      font-size: 16px;
     }
   }
 }
