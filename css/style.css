@@ -8385,6 +8385,9 @@ textarea.form-control-lg {
 .main__margin {
   margin-top: 50px; }
 
+.main__margin__section {
+  margin-top: 70px; }
+
 .main__title {
   font-size: 50px;
   font-weight: bold;
@@ -8679,8 +8682,9 @@ textarea.form-control-lg {
     font-size: 40px;
     margin: 5px; }
     .mis__compras__imagenes {
-      width: 100px;
-      height: 150px; }
+      width: 70px;
+      height: 230px;
+      padding-top: 5px; }
     .mis__compras__texto {
       font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
       font-size: 14px; }
@@ -8977,7 +8981,7 @@ textarea.form-control-lg {
   .main__image {
     border-radius: 25px;
     max-width: 335px;
-    max-height: 380px; }
+    max-height: 335px; }
   .our__products__title {
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
     font-weight: bold;
