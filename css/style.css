@@ -8647,7 +8647,8 @@ textarea.form-control-lg {
   .mis__compras__box {
     background-color: #e7ffed;
     border-radius: 10px;
-    margin: 5px; }
+    margin: 5px;
+    border: 2px solid #68a678; }
   .mis__compras__orden {
     display: flex;
     flex-direction: column;
@@ -8683,8 +8684,7 @@ textarea.form-control-lg {
     margin: 5px; }
     .mis__compras__imagenes {
       width: 70px;
-      height: 230px;
-      padding-top: 5px; }
+      height: 230px; }
     .mis__compras__texto {
       font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
       font-size: 14px; }
@@ -8897,16 +8897,29 @@ textarea.form-control-lg {
       font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
       font-size: 16px; } }
 
-.terms__and__conditions__title {
+.terms__and__conditions {
   text-align: center;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  font-size: 50px;
-  padding: 15px; }
+  font-size: 16px; }
+  .terms__and__conditions__text {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-size: 14px; }
+  .terms__and__conditions__titles {
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold; }
+  .terms__and__conditions__box {
+    background-color: white;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 10px; }
+  .terms__and__conditions__title {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    padding: 15px; }
 
-.terms__and__conditions__text {
-  text-align: center;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  font-size: 14px; }
+.bg {
+  background-color: #ededed; }
 
 .back__menu {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -8915,7 +8928,7 @@ textarea.form-control-lg {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 15px;
+  margin: 15px;
   text-decoration: none; }
 
 .back__menu:hover {
@@ -9069,7 +9082,10 @@ textarea.form-control-lg {
     margin-top: 15px;
     margin-bottom: 15px; }
   .text__footer__ul__a {
-    padding-top: 5px; } }
+    padding-top: 5px; }
+  .our__values__images {
+    height: 90px;
+    width: 90px; } }
 
 @media (min-width: 1200px) and (max-width: 1400px) {
   .main__image {
