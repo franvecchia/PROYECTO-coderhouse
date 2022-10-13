@@ -14,10 +14,10 @@
       font-weight: bold;
     }
     &__box {
-      background-color: white;
       padding: 15px;
       margin: 20px;
       border-radius: 10px;
+      border: 2px solid #68a678;
     }
     &__title {
       font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
@@ -27,10 +27,6 @@
     }
   }
 
-  .bg {
-    background-color: #ededed;
-  }
-  
   .back__menu {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     font-size: 15px;
@@ -46,3 +42,34 @@
     color: #68a678;
     text-decoration: underline;
   }
+
+@media (max-width: 767px) {
+  .terms__and__conditions {
+    text-align: center;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    &__text {
+      font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      font-size: 12px;
+    }
+    &__titles {
+      font-size: 18px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-weight: bold;
+    }
+    &__box {
+      padding: 15px;
+      margin: 20px;
+      border-radius: 10px;
+      border: 2px solid #68a678;
+    }
+    &__title {
+      font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    padding: 15px;
+    }
+  }
+}
