@@ -102,11 +102,10 @@
 
 @media (max-width: 767px) {
   .mis__compras {
-    font-weight: bold;
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
       "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-    font-size: 40px;
-    margin: 5px;
+    font-size: 30px;
+    padding: 10px;
     &__imagenes {
       width: 70px;
       height: 230px;
