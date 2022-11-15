@@ -13,9 +13,9 @@
     height: 550px;
     border-radius: 35px;
     padding: 0 !important;
-    box-shadow: 10px 10px 5px 0px #68a678;
-    -webkit-box-shadow: 10px 10px 5px 0px #68a678;
-    -moz-box-shadow: 10px 10px 5px 0px #68a678;
+    box-shadow: 10px 10px 5px 0px $primary;
+    -webkit-box-shadow: 10px 10px 5px 0px $primary;
+    -moz-box-shadow: 10px 10px 5px 0px $primary;
     margin-bottom: 50px;
   }
   &pad {
@@ -23,24 +23,24 @@
   }
   &__instagram {
     text-decoration: none;
-    color: #68a678;
+    color: $primary;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bold;
     font-size: 20px;
   }
   &__instagram:hover {
-    color: #68a678;
+    color: $primary;
     text-decoration: underline;
   }
   &__backmenu {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     font-size: 15px;
-    color: #68a678;
+    color: $primary;
     padding: 10px;
     text-decoration: none;
   }
   &__backmenu:hover {
-    color: #68a678;
+    color: $primary;
     text-decoration: underline;
   }
 }
@@ -51,13 +51,12 @@
   font-weight: bold;
   font-size: 25px;
   &__bg {
-    background-color: #e7ffed;
+    background-color: $background;
   }
   &__box {
     padding: 5px;
-    margin: 20px;
     border-radius: 50px;
-    border: 3px solid #68a678;
+    border: 3px solid $primary;
   }
   &__titles {
     font-weight: bold;
@@ -82,11 +81,11 @@
     padding: 5px;
   }
   &__images {
-    width: 350px;
-    height: 330px;
+    width: 280px;
+    height: 280px;
     border-radius: 50%;
     padding: 5px;
-    border: 3px solid #68a678;
+    border: 3px solid $primary;
     margin-top: 10px;
   }
   &__media {
@@ -101,12 +100,12 @@
   }
   &__contact {
     text-decoration: none;
-    color: #68a678;
+    color: $primary;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     font-size: 20px;
   }
   &__contact:hover {
-    color: #68a678;
+    color: $primary;
     text-decoration: underline;
   }
 }
@@ -128,9 +127,9 @@
       width: 140px;
       border-radius: 35px;
       padding: 0 !important;
-      box-shadow: 10px 10px 5px 0px #68a678;
-      -webkit-box-shadow: 10px 10px 5px 0px #68a678;
-      -moz-box-shadow: 10px 10px 5px 0px #68a678;
+      box-shadow: 10px 10px 5px 0px $primary;
+      -webkit-box-shadow: 10px 10px 5px 0px $primary;
+      -moz-box-shadow: 10px 10px 5px 0px $primary;
       margin-bottom: 50px;
     }
     &pad {
@@ -138,7 +137,7 @@
     }
     &__instagram {
       text-decoration: none;
-      color: #68a678;
+      color: $primary;
       font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
       font-weight: bold;
       font-size: 20px;
@@ -146,7 +145,7 @@
     &__backmenu {
       font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
       font-size: 15px;
-      color: #68a678;
+      color: $primary;
       padding: 10px;
       text-decoration: none;
     }
@@ -158,11 +157,11 @@
     font-weight: bold;
     font-size: 25px;
     &__bg {
-      background-color: #e7ffed;
+      background-color: $background;
     }
     &__box {
       border-radius: 50px;
-      border: 3px solid #68a678;
+      border: 3px solid $primary;
     }
     &__titles {
       font-weight: bold;
@@ -194,7 +193,7 @@
       height: 175px;
       border-radius: 50%;
       padding: 3px;
-      border: 3px solid #68a678;
+      border: 3px solid $primary;
       margin-top: 10px;
     }
     &__media {
@@ -209,7 +208,7 @@
     }
     &__contact {
       text-decoration: none;
-      color: #68a678;
+      color: $primary;
       font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
       font-size: 16px;
     }

@@ -46,7 +46,7 @@
     background-color: #ededed;
   }
   &__verCompra:hover {
-    color: #68a678;
+    color: $primary;
   }
   &__volverComprar {
     border-radius: 3px;
@@ -55,17 +55,17 @@
     padding: 5px 0px;
     text-decoration: none;
     color: black;
-    background-color: #68a678;
+    background-color: $primary;
   }
   &__volverComprar:hover {
     color: white;
-    background-color: #054600;
+    background-color: $hover-button;
   }
   &__box {
-    background-color: #e7ffed;
+    background-color: $background;
     border-radius: 10px;
     margin: 5px;
-    border: 2px solid #68a678;
+    border: 2px solid $primary;
   }
   &__orden {
     display: flex;
@@ -86,7 +86,7 @@
   &__backmenu {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     font-size: 15px;
-    color: #68a678;
+    color: $primary;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -95,7 +95,7 @@
     text-decoration: none;
   }
   &__backmenu:hover {
-    color: #68a678;
+    color: $primary;
     text-decoration: underline;
   }
 }
@@ -134,7 +134,7 @@
       font-size: 16px;
     }
     &__box {
-      background-color: #e7ffed;
+      background-color: $background;
       border-radius: 10px;
       margin: 5px;
       padding-bottom: 20px;
@@ -147,12 +147,21 @@
     &__backmenu {
       font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
       font-size: 15px;
-      color: #68a678;
+      color: $primary;
       display: flex;
       align-items: center;
       justify-content: center;
       margin-top: 15px;
       text-decoration: none;
+    }
+  }
+}
+
+@media (min-width: 768px) and (max-width:1200px) {
+  .mis__compras {
+    &__imagenes {
+      width: 100px;
+      height: 380px;
     }
   }
 }

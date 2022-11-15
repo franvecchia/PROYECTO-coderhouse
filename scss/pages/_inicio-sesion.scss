@@ -7,7 +7,7 @@
   &__links {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     font-size: 15px;
-    color: #68a678;
+    color: $primary;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -15,13 +15,13 @@
     margin-top: 10px;
   }
   &__links:hover {
-    color: #68a678;
+    color: $primary;
     text-decoration: underline;
   }
   &__button {
     padding: 0.5em 1em;
     border: none;
-    background: #68a678;
+    background: $primary;
     cursor: pointer;
     margin: 15px;
     border-radius: 3px;
@@ -38,7 +38,7 @@
 
 .form__input__style2 {
   border-radius: 3px;
-  border: 2px solid #68a678;
+  border: 2px solid $primary;
   margin-top: 10px;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -57,7 +57,7 @@
     &__links {
       font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
       font-size: 15px;
-      color: #68a678;
+      color: $primary;
       display: flex;
       align-items: center;
       justify-content: center;

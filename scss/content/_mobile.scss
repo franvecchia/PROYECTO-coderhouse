@@ -50,7 +50,7 @@
       "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
     padding: 15px;
     animation: fluido 3s ease-in-out infinite;
-    background: linear-gradient(45deg, #12ff00, #68a678, #054600);
+    background: linear-gradient(45deg, #12ff00, $primary, $hover-button);
     background-size: 300%;
     -webkit-background-clip: text;
     background-clip: text;
@@ -93,12 +93,12 @@
     padding: 5px 10px;
     text-decoration: none;
     color: black;
-    background-color: #68a678;
+    background-color: $primary;
   }
 
   .our__products__button:hover {
     color: white;
-    background-color: #054600;
+    background-color: $hover-button;
   }
 
   .our__products__images {
@@ -121,7 +121,7 @@
   }
 
   .background__second__div {
-    background-color: #e7ffed;
+    background-color: $background;
     margin: 0px;
   }
 
@@ -163,7 +163,7 @@
   .back__menu {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     font-size: 15px;
-    color: #68a678;
+    color: $primary;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -174,7 +174,7 @@
   .who__we__are__backmenu {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     font-size: 15px;
-    color: #68a678;
+    color: $primary;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -185,7 +185,7 @@
   .mis__compras__backmenu {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     font-size: 15px;
-    color: #68a678;
+    color: $primary;
     margin-top: 15px;
     margin-bottom: 15px;
   }

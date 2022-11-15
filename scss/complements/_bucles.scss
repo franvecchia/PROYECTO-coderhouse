@@ -1,0 +1,10 @@
+@for $i from 1 through 10 {
+  .padding-#{i} {
+    padding: 1rem * $i;
+  }
+}
+
+@mixin color-invertido {
+  background-color: #111;
+  color: #eee;
+}
