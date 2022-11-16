@@ -2,16 +2,14 @@ $primary: #68a678!default;
 $background: #e7ffed;
 $hover-button: #054600;
 
-@import "../node_modules/bootstrap/scss/bootstrap";
-
-/* OTHER IMPORTS */
 @import "./pages/index";
 @import "./pages/inicio-sesion";
 @import "./pages/mis-compras";
 @import "./pages/quienes-somos";
 @import "./pages/terminos-y-condiciones";
 @import "./complements/animaciones";
+@import "./complements/bucles";
 @import "./content/mobile";
 @import "./content/navbar";
 @import "./content/footer";
-@import "./complements/bucles";
+
